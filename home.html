@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+	<script src="js/cycle2.js" type="text/javascript"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="MAU Attraction.css"> 
+	<link rel="stylesheet" href="second.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+</head>
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top:-37px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #72bfe8;
+  text-align: center;
+  padding: 15px 80px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #333;
+  color: #72bfe8;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: #72bfe8;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:  #72bfe8;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+ 
+.column img{
+	border:1px solid black;
+	}
+.column  {
+  opacity: 0.7;
+  filter: alpha(opacity=50); 
+}
+
+.column:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.comments{
+	margin-top:-0%;
+}
+
+
+</style>
+<script>
+
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+</script>
+
+<body>
+
+<div class="header">
+  <img src="images/logo4.jpg"width="300px">
+  <div class="header-right">
+    <a class="active" href="#home"><a href="https://www.facebook.com/" class="fa fa-facebook"style="background: #3B5998;color: white;"></a>
+    <a href="#contact"><a href="https://twitter.com/login?lang=en" class="fa fa-twitter"style="background: #55ACEE;color: white;"></a></a>
+    <a href="#about"><a href="https://www.instagram.com/" class="fa fa-instagram"style=" background: #125688;color: white;"></a></a>
+	<a href="#about"><a href="https://www.youtube.com/" class="fa fa-youtube"style=" background: #bb0000;color: white;"></a></a>
+  </div>
+</div>
+
+
+
+		
+	<div class="container"> 
+	  
+		<div class="cycle-slideshow" data-cycle-slides=".slide"> 
+		<span class="cycle-prev">&laquo;</span> 
+			
+		<span class="cycle-next">&raquo;</span> 
+		<span class="cycle-pager"></span> 
+		<div class="slide"> 
+		  <img src="images/pic1.jpg"width="100%"> 
+		  <div class="slide-text" > 
+		   What would you like to do?<br>
+		   <div style ="font-size:2vw">Choose from the biggest selection of Holiday Activities in Mauritius<br></div>
+				<div class="search-container" style="margin-left:60px;">
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search"style="padding: 12px 30px; border-radius: 15px;">
+					  <button type="submit">Search</button>
+					</form>
+				</div>
+			   
+		   
+		  </div> 
+		</div> 
+		<div class="slide"> 
+		  <img src="images/pic2.jpg"width="100%"> 
+		  <div class="slide-text" > 
+		   What would you like to do?<br>
+		     		   <div style ="font-size:2vw">Choose from the biggest selection of Holiday Activities in Mauritius<br></div>
+
+				<div class="search-container" style="margin-left:60px;">
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search"style="padding: 12px 30px;border-radius: 15px;">
+					  <button type="submit">Search</button>
+					</form>
+				</div>
+		   
+		  </div> 
+		</div> 
+
+		<div class="slide"> 
+		  <img src="images/pic3.jpg"width="100%"> 
+		  <div class="slide-text" > 
+		  What would you like to do?<br>
+		  <div style ="font-size:2vw">Choose from the biggest selection of Holiday Activities in Mauritius<br></div>
+
+		  
+				<div class="search-container" style="margin-left:60px;">
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search"style="padding: 12px 30px;border-radius: 15px;">
+					  <button type="submit">Search</button>
+					</form>
+				</div>
+		  </div> 
+		</div> 
+		<div class="slide"> 
+		  <img src="images/pic4.jpg"width="100%"> 
+		  <div class="slide-text" > 
+		  What would you like to do?<br>
+		  <div style ="font-size:2vw">Choose from the biggest selection of Holiday Activities in Mauritius<br></div>
+
+				<div class="search-container" style="margin-left:60px;">
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search"style="padding: 12px 30px;border-radius: 15px;">
+					  <button type="submit">Search</button>
+					</form>
+				</div>
+		 
+		  </div> 
+		</div>
+		
+   </div>
+<header> 
+
+		<div class="topnav" id="myTopnav">
+			  <a href="#" class="active">Home</a>
+			  <a href="Nature and parks.html">Nature & Parks</a>
+			  
+			  <div class="dropdown">
+				<button class="dropbtn">Activities 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="Water activities.html">Water Activities</a>
+				  <a href="Land Activities.html">Land Activities </a>
+				</div>
+			  </div> 
+			  <a href="#contact">Hotel</a>
+			  <a href="#about">Restaurant</a>
+			  <a href="#about">About Us</a>
+			  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</header>
+
+
+
+
+<section id="sect1">
+	
+</section>
+		
+
+<div class="in-left">
+  
+    <div id="box2">
+		 <h3 style="font-size:3.3vw;"><i>Welcome to Mauritius Attractions</i></h3>
+		       
+			<div id="curve"style="margin-top:-6%;"> <img src="images/line3.png" width="70%"height="auto"></div>
+		 <p><img src="images/beach.jpg"width="35%">
+	        
+		 Mauritius is a densely populated island of around 1.2 million people. 
+		 It has a reputation for stability and racial harmony among its mixed population.
+		 <br><br>
+        		  
+		  Mauritius is known as a plural society where all the ethnic groups present: 
+		  Hindus, Muslims, Creoles, Chinese and Europeans live in peace and where all the 
+		  ancestral cultures have been preserved. These features make the island a unique 
+		  place in the world, and the Mauritians known for their tolerance and kindness towards all people.
+
+		Most Mauritians are bilingual being equally fluent in French and English. English is the
+		 official language, but French and Creole are widely spoken. Oriental languages also form 
+		 part of the linguistic mosaic.
+
+		Mauritius has preserved its image as one of Africa's few social and economic
+		 success stories, being a sugar and clothing exporter and a center for up market tourism.</p>
+	</div>
+	
+	
+		
+
+ </div>
+ 
+
+</section>
+<div class="row"> 
+  <div class="column">
+    <img src="images/nature.jpg" style="width:100%">
+		<div id="text"><a href="Nature and parks.html"><b>Nature & Parks</b></a></div>
+  </div>
+  
+  <div class="column">
+    <img src="images/activity13.jpg" style="width:100%">
+		<div id="text"><a href="Water activities.html"><b>Water Activity</b></a></div>
+  </div>  
+  
+  <div class="column">
+    <img src="images/land.jpg" style="width:100%">
+		<div id="text"><a href="Land Activities.html"><b>Land Activity</b></a></div>
+  </div>
+  
+  <div class="column">
+    <img src="images/hotel1.jpg" style="width:100%">
+		<div id="text"><a href=""><b>Hotel</b></a></div>
+  </div>
+</div>
+</div>
+<div class="comments"><h3 style="color:green;margin-top:15%;text-align:center;font-size:40px;">Tourist Review On Mauritius</h3></div>
+
+<div class="row2">
+  <div class="column2" >
+    <h2 style="text-align:center;"><i>"Best beaches"</i></h2>
+    <p style="font-size:1em;color:#393d3b;"><i>Recognised for having the world’s best beaches and the second-best air quality, Mauritius, off the Indian Ocean, 
+		is renowned as a top class luxury resort.<br><br>  Part of the island group of Mauritius-Rodrigues-Reunion – Mascarenes,
+		 Mauritius itself was named after a Dutch prince. Our Mauritius Holiday Package takes tourists to the spectacularly
+		 beautiful view of the open sea near Mauritius – which is kept away from its beaches and lagoons by the world’s third
+		 largest coral reef – and of the mountains fringing the island as well as beautiful forests in its Black River Gorges
+		 National Park region.</i></p>
+  </div>
+  <div class="column2" >
+   <h2 style="text-align:center;"><i>"Multifaceted Island"</i></h2>
+    <p style="font-size:1em;color:#393d3b;"><i>A trek to Mauritius is a multifaceted island experience, 
+		to keep it fundamental.<br><br> Mauritius due to its African foundation,
+		French/English intrusions and Indian relocation gives you an
+		exceptionally one of a kind arrangement of individuals. They 
+		have a place with different races, regularly talk Creole(a blend 
+		of different dialects) and adoration their little nation for what
+		it is. As an island, Mauritius offers you different exercises identified 
+		with water, including travels, water sports, under-ocean walk and even a
+		submarine ride.</i></p>
+  </div>
+  <div class="column2">
+    <h2 style="text-align:center;"><i>"Honeymoon destination"</i></h2>
+	<p style="font-size:1em;color:#393d3b;"><i>Mauritius is the honey moon destination for most of the newly married couples.
+		It is having all the means of fun and enjoyment of it.<br> You can easily reach 
+		mauritius by air or by water. You can see parks, museum and waterfalls . You 
+		can enjoy water games and under water life and animals. A wide variety of hotels
+		are available as per the convenience of the individual. All safety measures are 
+		taken while taking the tourist at the different water areas, for making their travel
+		a memorable experience.</i></p>
+    
+  </div>
+</div>
+
+
+<footer>
+<div id="last">
+
+	<div id="GPS">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="images/gps.png"width="3.5%"><a href="https://www.google.com/maps/@-20.0704285,57.5907365,13z"><br>San Francisco-Address-18<br> California Street Rockville</a></div>
+	<div id="Mail">&nbsp &nbsp &nbsp &nbsp   <img src="images/Gmail.png"width="5%"><br><a href="mailto:webmaster@example.com">hello@gmail.com</a></div>
+	<div id="call">&nbsp &nbsp &nbsp &nbsp  <img src="images/call.jpg"width="8%"><br>+123 456 7890</div>
+
+</div>	
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
